@@ -7,14 +7,53 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <img src="assets/profile.jpg" alt="Tope Olufowose" class="profile-image">
+    <!--Header and navigation-->
+    <header>
+        <h1>Welcome to My Page</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Main content-->
+    <main id="home" class="container">
+        <!--Home-->
+    <section class="intro">
+        <img src="assets/profile.jpg" alt="My Profile Logo" class="profile-image">
         <h1>Tope Olufowose</h1>
         <p>Hello! I'm currently learning to become a front-end developer through CS50 and personal projects.</p> 
-    <div class="links">
-        <a href="https://github.com/temmyc2" target="_blank">GitHub</a>
-        <a href="mailto:temmyolufowose@gmail.com" target="_blank">Email</a>
-    </div>
-    </div>
+    </section>
+    <!--Projects-->
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>
+                <a href="https://temmyc2.github.io/myrecipehub/" target="_blank" rel="noopener">My Recipe Hub</a>  
+                <p>An interactive recipe manager built step by step as part of my front-end project.</p>
+            </li>
+        </ul>
+    </section>
+    <!--About Me-->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I enjoy coding,solving problems, and building clean, simple designs. Outside tech, I love music and learning new things everyday</p>
+    </section>
+    <!--Contact-->
+    <section id="contact">
+        <h2>Contact</h2>
+        <div class="links">
+            <a href="https://github.com/temmyc2" target="_blank" rel="noopener">GitHub</a>
+            <a href="mailto:temmyolufowose@gmail.com" target="_blank">Email</a>
+        </div>
+    </section>
+    </main>
+    <!--Footer-->
+    <footer>
+        <p>&copy; 2025 Tope Olufowose. All rights reserved.</p>
+    </footer>
 </body>
 </html>
